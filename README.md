@@ -1,4 +1,13 @@
-# Instalación y Ejecución Local
+# Ejercicio de prueba
+
+## Diseño de Referencia (Figma)
+
+El diseño base para la interfaz web se encuentra en el siguiente enlace de Figma
+
+• URL: https://www.figma.com/design/gl8PmW7fzbHmLXlS7mUtlp/Hero---Prueba?node-id=0-1&t=bJniI3T00ylA9auS-1
+• Contraseña de acceso: blast-lines-scope-draft
+
+## Instalación y Ejecución Local
 
 Este proyecto está desarrollado con **Vue 3** y **Vite**.
 A continuación encontrarás las instrucciones necesarias para configurarlo y ejecutarlo en tu entorno local sin errores.
@@ -17,7 +26,7 @@ npm install
 
 ## Ejecución en Desarrollo
 
-Para iniciar el servidor de desarrollo con **compilación en caliente (Hot Reload)**, ejecuta:
+Para iniciar el servidor de desarrollo con **compilación**, ejecuta:
 
 ```bash
 npm run dev
