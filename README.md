@@ -1,38 +1,40 @@
-# vue-hero-test
+# Instalación y Ejecución Local
 
-This template should help get you started developing with Vue 3 in Vite.
+Este proyecto está desarrollado con **Vue 3** y **Vite**.
+A continuación encontrarás las instrucciones necesarias para configurarlo y ejecutarlo en tu entorno local sin errores.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Instalación de Dependencias
 
-## Recommended Browser Setup
+En la raíz del proyecto, ejecuta el siguiente comando para instalar todas las dependencias definidas en `package.json`:
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+---
 
-```sh
+## Ejecución en Desarrollo
+
+Para iniciar el servidor de desarrollo con **compilación en caliente (Hot Reload)**, ejecuta:
+
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+Esto iniciará la aplicación y podrás acceder a ella desde la dirección que indique la terminal (por defecto [http://localhost:5173](http://localhost:5173)).
 
-```sh
+---
+
+## Compilación para Producción
+
+Para compilar y optimizar la aplicación para un entorno de **producción**, ejecuta:
+
+```bash
 npm run build
 ```
+
+Esto generará una carpeta `dist/` lista para ser desplegada en cualquier servidor web.
+
+---
